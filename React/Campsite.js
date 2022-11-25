@@ -2,6 +2,9 @@
 
 //A functional(a.k.a. stateless) component is just a plain javascript function which takes props as an argument and returns a react element.
 
+//I'm pretty sure 'PROPS' is just there to accept "ANY & ALL" passed arguments... which is why we
+//do props.variable to specify which one we are wanting to use
+
 class CampSite extends React.Component {
   constructor(props) {
     super(props);
