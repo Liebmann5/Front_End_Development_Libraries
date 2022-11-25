@@ -1,4 +1,7 @@
 //Review Using Props with Stateless Functional Components
+
+//A functional(a.k.a. stateless) component is just a plain javascript function which takes props as an argument and returns a react element.
+
 class CampSite extends React.Component {
   constructor(props) {
     super(props);
